@@ -11,21 +11,27 @@ USE NODE
 
 ### Install Dependencies
 1-instalar dependencias do expressjs
+```
 cd express-js
 npm install
-
+```
 2-instalar dependencias da aplicacao angularjs
+```
 cd angular-seed
 npm install
-
+```
 ### Run the Application
 3-Subir app angularjs
+```
 cd angular-seed
 npm start
+```
 
 4-Subir express
+```
 cd express-js
 node app.js
+```
 
 ## Run API with postman
 HTTP GET
