@@ -1,3 +1,3 @@
 ﻿
-cd "C:\Users\kmidori\Desktop\AngularJsServerSide"
+cd ..
 phantomjs phantom-angularjs-server-side.js
