@@ -1,5 +1,15 @@
-#executar com node
+# `angular-js render server side with phantom` — Compile and return html string with expressJs API
 
+
+### Prerequisites
+You must have Node.js
+and its package manager (npm) installed.
+
+## Getting Started
+
+USE NODE
+
+### Install Dependencies
 1-instalar dependencias do expressjs
 cd express-js
 npm install
@@ -8,6 +18,7 @@ npm install
 cd angular-seed
 npm install
 
+### Run the Application
 3-Subir app angularjs
 cd angular-seed
 npm start
@@ -16,7 +27,7 @@ npm start
 cd express-js
 node app.js
 
-Usar postman p/ testar:
+## Run API with postman
 HTTP GET
 http://localhost:3001/returnHtmlWithAngularJsCompiled
 
