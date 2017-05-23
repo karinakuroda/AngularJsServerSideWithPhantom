@@ -35,9 +35,9 @@ page.open('http://localhost:8000/#!/view1', function (status) {
         });
         if(html) {
             clearTimeout(delay);
-			fs.write('teste.html', page.content, 'w');
+			fs.write('output/teste.html', page.content, 'w');
 			console.log(page.content); 
-            page.render('login-phantom.png');
+            page.render('output/teste-phantom.png');
             phantom.exit();
         }
     });
